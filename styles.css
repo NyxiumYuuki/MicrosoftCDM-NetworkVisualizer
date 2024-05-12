@@ -6,23 +6,39 @@ html, body {
 }
 
 #container {
+    position: relative;
     width: 100vw;
     height: 100vh;
     background: white;
+    border: 1px solid #ccc;
 }
+
+.graph-title {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    color: #333;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 
 /* The Drawer (background) */
 .drawer {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    right: 0; /* Align to the right side */
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 0;
     top: 0;
-    width: 30%; /* Adjust width as needed */
-    height: 100%; /* Full height */
-    background-color: white; /* Drawer background color */
-    box-shadow: -2px 0 5px rgba(0,0,0,0.5); /* Shadow for better visibility */
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    overflow-x: hidden;
 }
 
 .drawer-content {
