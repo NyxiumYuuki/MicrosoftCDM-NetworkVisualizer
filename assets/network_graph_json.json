@@ -1462,11 +1462,13 @@
     "tags": [
         {
             "key": "Entity",
-            "image": ""
+            "size": 15,
+            "color": "#ff5733"
         },
         {
             "key": "Table",
-            "image": ""
+            "size": 5,
+            "color": "#6c3e81"
         }
     ]
 }
