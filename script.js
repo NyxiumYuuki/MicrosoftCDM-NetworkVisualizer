@@ -14,7 +14,7 @@ async function main(){
         console.log("Graph data:", network_graph_json);
         console.log("Graph object:", graph);
         const sigmaInstance = new Sigma(graph, document.getElementById('container'));
-        add_modal(sigmaInstance, graph);
+        add_drawer(sigmaInstance, graph);
     } catch (error) {
         console.error('Failed to load or create the graph:', error);
     }
@@ -73,26 +73,27 @@ async function getNetworkGraphJson(){
     return await response.json();
 }
 
-function add_modal(sigmaInstance, graph){
+function add_drawer(sigmaInstance, graph){
     sigmaInstance.on('clickNode', ({node}) => {
         const attributes = graph.getNodeAttributes(node);
-        const modal = document.getElementById('nodeModal');
-        const modalText = document.getElementById('modalText');
+        const drawer = document.getElementById('nodeDrawer');
+        const drawerText = document.getElementById('drawerText');
 
-        modalText.innerHTML = `Node Label: ${attributes.label}<br>Node Type: ${attributes.tag}<br>More info: <a href="${attributes.URL}">Click here</a>`;
+        drawerText.innerHTML = `Node Label: ${attributes.label}<br>Node Type: ${attributes.tag}<br>More info: <a href="${attributes.URL}">Click here</a>`;
 
-        modal.style.display = "block";
+        drawer.style.width = "30%";
+        drawer.style.display = "block";
     });
 
     const close = document.getElementsByClassName("close")[0];
     close.onclick = function() {
-        const modal = document.getElementById('nodeModal');
-        modal.style.display = "none";
+        const drawer = document.getElementById('nodeDrawer');
+        drawer.style.display = "none";
     }
     window.onclick = function(event) {
-        const modal = document.getElementById('nodeModal');
-        if (event.target == modal) {
-            modal.style.display = "none";
+        const drawer = document.getElementById('nodeDrawer');
+        if (event.target === drawer) {
+            drawer.style.display = "none";
         }
     }
 }
