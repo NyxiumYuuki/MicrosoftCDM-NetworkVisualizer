@@ -1,5 +1,5 @@
 import graphology from 'https://cdn.jsdelivr.net/npm/graphology/+esm';
-import sigma from 'https://cdn.jsdelivr.net/npm/sigma/+esm';
+import Sigma from 'https://cdn.jsdelivr.net/npm/sigma/+esm';
 import forceAtlas2 from 'https://cdn.jsdelivr.net/npm/graphology-layout-forceatlas2/+esm';
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -13,10 +13,7 @@ async function main(){
         graph = addLayout(graph);
         console.log("Graph data:", network_graph_json);
         console.log("Graph object:", graph);
-        let sigmaInstance = new sigma.Sigma(
-            graph,
-            document.getElementById('container')
-        );
+        new Sigma(graph, document.getElementById('container'));
     } catch (error) {
         console.error('Failed to load or create the graph:', error);
     }
@@ -58,7 +55,7 @@ function addLayout(graph){
         iterations: 100,
         settings: {
             gravity: 0.5,
-            scalingRatio: 2.0
+            scalingRatio: 1.0
         }
     });
 

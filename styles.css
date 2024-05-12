@@ -1,9 +1,12 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background: lightgrey;
 }
 
 #container {
-    height: auto;
-    width: auto;
+    width: 100vw;
+    height: 100vh;
     background: white;
 }
