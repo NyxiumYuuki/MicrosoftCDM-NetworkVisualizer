@@ -1,0 +1,1 @@
+# Representation of Microsoft Common Data Model with Sigma.js a Javascript library for network graph

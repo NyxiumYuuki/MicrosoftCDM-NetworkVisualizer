@@ -1,0 +1,9 @@
+body {
+    background: lightgrey;
+}
+
+#container {
+    height: auto;
+    width: auto;
+    background: white;
+}

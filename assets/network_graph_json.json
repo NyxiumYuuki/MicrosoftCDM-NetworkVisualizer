@@ -1,0 +1,1472 @@
+{
+    "nodes": [
+        {
+            "key": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "label": "sales",
+            "tag": "Entity",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/overview",
+            "cluster": "foundationCommon",
+            "x": 0.9464522262686996,
+            "y": 0.5523952829512259
+        },
+        {
+            "key": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "label": "service",
+            "tag": "Entity",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/overview",
+            "cluster": "foundationCommon",
+            "x": 0.643163318296115,
+            "y": 0.9523455582710072
+        },
+        {
+            "key": "521b711d-e5ec-11ee-90a5-902e169e2a15",
+            "label": "financialCommon",
+            "tag": "Entity",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/financialCommon/overview",
+            "cluster": "foundationCommon",
+            "x": 0.9095499905797927,
+            "y": 0.4431975403719155
+        },
+        {
+            "key": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "label": "foundationCommon",
+            "tag": "Entity",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/overview",
+            "cluster": "foundationCommon",
+            "x": 0.22605633056279306,
+            "y": 0.8885683266475839
+        },
+        {
+            "key": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "label": "crmCommon",
+            "tag": "Entity",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/overview",
+            "cluster": "foundationCommon",
+            "x": 0.5259498663980297,
+            "y": 0.055463876511775645
+        },
+        {
+            "key": "4854fb1b-e5ec-11ee-a631-902e169e2a15",
+            "label": "ActivityParty",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/ActivityParty",
+            "cluster": "foundationCommon",
+            "x": 0.3748157108103597,
+            "y": 0.6101620729961076
+        },
+        {
+            "key": "4854fb1c-e5ec-11ee-b755-902e169e2a15",
+            "label": "Case",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/Case",
+            "cluster": "foundationCommon",
+            "x": 0.2905572602982037,
+            "y": 0.34569554880718134
+        },
+        {
+            "key": "4854fb1d-e5ec-11ee-82bc-902e169e2a15",
+            "label": "CaseResolution",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/CaseResolution",
+            "cluster": "foundationCommon",
+            "x": 0.041383985925377176,
+            "y": 0.5143312982277115
+        },
+        {
+            "key": "4854fb1e-e5ec-11ee-92a6-902e169e2a15",
+            "label": "ChildIncidentCount",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/ChildIncidentCount",
+            "cluster": "foundationCommon",
+            "x": 0.016751746171155046,
+            "y": 0.5612287577417034
+        },
+        {
+            "key": "4854fb1f-e5ec-11ee-8fa9-902e169e2a15",
+            "label": "Contract",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/Contract",
+            "cluster": "foundationCommon",
+            "x": 0.3562139437597639,
+            "y": 0.20083125934837676
+        },
+        {
+            "key": "4854fb20-e5ec-11ee-9d25-902e169e2a15",
+            "label": "ContractLine",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/ContractLine",
+            "cluster": "foundationCommon",
+            "x": 0.7122051650122575,
+            "y": 0.4235014806421519
+        },
+        {
+            "key": "4854fb21-e5ec-11ee-aa6c-902e169e2a15",
+            "label": "Entitlement",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/Entitlement",
+            "cluster": "foundationCommon",
+            "x": 0.576677036520144,
+            "y": 0.8557856313105175
+        },
+        {
+            "key": "4854fb22-e5ec-11ee-86af-902e169e2a15",
+            "label": "EntitlementContact",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/EntitlementContact",
+            "cluster": "foundationCommon",
+            "x": 0.6245577817126802,
+            "y": 0.7390409452433382
+        },
+        {
+            "key": "4854fb23-e5ec-11ee-893a-902e169e2a15",
+            "label": "EntitlementProduct",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/EntitlementProduct",
+            "cluster": "foundationCommon",
+            "x": 0.8589042652760097,
+            "y": 0.3387635077709926
+        },
+        {
+            "key": "4854fb24-e5ec-11ee-9a1a-902e169e2a15",
+            "label": "FacilityEquipment",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/FacilityEquipment",
+            "cluster": "foundationCommon",
+            "x": 0.798316191591158,
+            "y": 0.8671050218990096
+        },
+        {
+            "key": "4854fb25-e5ec-11ee-a28a-902e169e2a15",
+            "label": "IncidentKnowledgeBaseRecord",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/IncidentKnowledgeBaseRecord",
+            "cluster": "foundationCommon",
+            "x": 0.8924224833256728,
+            "y": 0.015925434669541216
+        },
+        {
+            "key": "4854fb26-e5ec-11ee-b474-902e169e2a15",
+            "label": "KnowledgeArticleIncident",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/KnowledgeArticleIncident",
+            "cluster": "foundationCommon",
+            "x": 0.18504306259305436,
+            "y": 0.769878249669667
+        },
+        {
+            "key": "4854fb27-e5ec-11ee-91bf-902e169e2a15",
+            "label": "Resource",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/Resource",
+            "cluster": "foundationCommon",
+            "x": 0.009221838795004711,
+            "y": 0.8556687695208484
+        },
+        {
+            "key": "4854fb28-e5ec-11ee-ad89-902e169e2a15",
+            "label": "ResourceExpansion",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/ResourceExpansion",
+            "cluster": "foundationCommon",
+            "x": 0.5423901452791279,
+            "y": 0.5273088928918671
+        },
+        {
+            "key": "4854fb29-e5ec-11ee-897e-902e169e2a15",
+            "label": "ResourceSpecification",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/ResourceSpecification",
+            "cluster": "foundationCommon",
+            "x": 0.16372797644232007,
+            "y": 0.8804214999313383
+        },
+        {
+            "key": "4854fb2a-e5ec-11ee-a7be-902e169e2a15",
+            "label": "SchedulingGroup",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/SchedulingGroup",
+            "cluster": "foundationCommon",
+            "x": 0.3571773040877603,
+            "y": 0.6857400487383153
+        },
+        {
+            "key": "4854fb2b-e5ec-11ee-8b2a-902e169e2a15",
+            "label": "Service",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/Service",
+            "cluster": "foundationCommon",
+            "x": 0.9936929396121286,
+            "y": 0.76354957585603
+        },
+        {
+            "key": "4854fb2c-e5ec-11ee-b688-902e169e2a15",
+            "label": "ServiceActivity",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/ServiceActivity",
+            "cluster": "foundationCommon",
+            "x": 0.16722409217500134,
+            "y": 0.05020554341095662
+        },
+        {
+            "key": "4854fb2d-e5ec-11ee-afef-902e169e2a15",
+            "label": "ServiceContractContact",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/ServiceContractContact",
+            "cluster": "foundationCommon",
+            "x": 0.6742330889153039,
+            "y": 0.28948534044455043
+        },
+        {
+            "key": "4854fb2e-e5ec-11ee-a70d-902e169e2a15",
+            "label": "Site",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/Site",
+            "cluster": "foundationCommon",
+            "x": 0.004512301220764403,
+            "y": 0.12823476024100944
+        },
+        {
+            "key": "4854fb2f-e5ec-11ee-b0cb-902e169e2a15",
+            "label": "SLAKPIInstance",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/SLAKPIInstance",
+            "cluster": "foundationCommon",
+            "x": 0.2375184922698641,
+            "y": 0.748774053546397
+        },
+        {
+            "key": "4854fb30-e5ec-11ee-97ce-902e169e2a15",
+            "label": "Task",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/Task",
+            "cluster": "foundationCommon",
+            "x": 0.5565976916763358,
+            "y": 0.19535490906042374
+        },
+        {
+            "key": "4854fb31-e5ec-11ee-85c1-902e169e2a15",
+            "label": "User",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/service/User",
+            "cluster": "foundationCommon",
+            "x": 0.4349806027084401,
+            "y": 0.0068274066412056245
+        },
+        {
+            "key": "524eb559-e5ec-11ee-badf-902e169e2a15",
+            "label": "FinancialActivity",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/financialCommon/FinancialActivity",
+            "cluster": "foundationCommon",
+            "x": 0.05558509685743007,
+            "y": 0.35056913789349076
+        },
+        {
+            "key": "524eb55a-e5ec-11ee-84c3-902e169e2a15",
+            "label": "FiscalCalendarPeriod",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/financialCommon/FiscalCalendarPeriod",
+            "cluster": "foundationCommon",
+            "x": 0.06390310816627276,
+            "y": 0.5362685987861214
+        },
+        {
+            "key": "524eb55b-e5ec-11ee-8821-902e169e2a15",
+            "label": "Ledger",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/financialCommon/Ledger",
+            "cluster": "foundationCommon",
+            "x": 0.212183592870562,
+            "y": 0.6125049367148531
+        },
+        {
+            "key": "524eb55c-e5ec-11ee-bf67-902e169e2a15",
+            "label": "MainAccount",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/financialCommon/MainAccount",
+            "cluster": "foundationCommon",
+            "x": 0.3744087644394529,
+            "y": 0.41898379143732767
+        },
+        {
+            "key": "524eb55d-e5ec-11ee-a03e-902e169e2a15",
+            "label": "MainAccountCategory",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/financialCommon/MainAccountCategory",
+            "cluster": "foundationCommon",
+            "x": 0.6021770587081364,
+            "y": 0.8088878481214089
+        },
+        {
+            "key": "1b4da668-e5ec-11ee-9e31-902e169e2a15",
+            "label": "Account",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/Account",
+            "cluster": "foundationCommon",
+            "x": 0.7227699986172729,
+            "y": 0.8776274499871483
+        },
+        {
+            "key": "1b4da669-e5ec-11ee-bd65-902e169e2a15",
+            "label": "BookableResource",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/BookableResource",
+            "cluster": "foundationCommon",
+            "x": 0.2320446887160713,
+            "y": 0.6071592988033726
+        },
+        {
+            "key": "1b4da66a-e5ec-11ee-b5d9-902e169e2a15",
+            "label": "BookableResourceBooking",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/BookableResourceBooking",
+            "cluster": "foundationCommon",
+            "x": 0.30710609058023,
+            "y": 0.5137791416286903
+        },
+        {
+            "key": "1b4da66b-e5ec-11ee-824f-902e169e2a15",
+            "label": "BookableResourceBookingHeader",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/BookableResourceBookingHeader",
+            "cluster": "foundationCommon",
+            "x": 0.26617418383495806,
+            "y": 0.35884811125475324
+        },
+        {
+            "key": "1b4da66c-e5ec-11ee-bdef-902e169e2a15",
+            "label": "BookableResourceCategory",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/BookableResourceCategory",
+            "cluster": "foundationCommon",
+            "x": 0.3216935005930016,
+            "y": 0.8394152082100961
+        },
+        {
+            "key": "1b4da66d-e5ec-11ee-bfde-902e169e2a15",
+            "label": "BookableResourceCategoryAssn",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/BookableResourceCategoryAssn",
+            "cluster": "foundationCommon",
+            "x": 0.6930989378465948,
+            "y": 0.749749942017697
+        },
+        {
+            "key": "1b4da66e-e5ec-11ee-9c53-902e169e2a15",
+            "label": "BookableResourceCharacteristic",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/BookableResourceCharacteristic",
+            "cluster": "foundationCommon",
+            "x": 0.214288869656709,
+            "y": 0.6029814189916369
+        },
+        {
+            "key": "1b4da66f-e5ec-11ee-b3d4-902e169e2a15",
+            "label": "BookableResourceGroup",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/BookableResourceGroup",
+            "cluster": "foundationCommon",
+            "x": 0.7396133155803338,
+            "y": 0.8170663657119693
+        },
+        {
+            "key": "1b4da670-e5ec-11ee-868d-902e169e2a15",
+            "label": "BookingStatus",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/BookingStatus",
+            "cluster": "foundationCommon",
+            "x": 0.8480383484494134,
+            "y": 0.9176779113133392
+        },
+        {
+            "key": "1b4da671-e5ec-11ee-b8e9-902e169e2a15",
+            "label": "Characteristic",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/Characteristic",
+            "cluster": "foundationCommon",
+            "x": 0.9271422789136549,
+            "y": 0.3406094768460508
+        },
+        {
+            "key": "1b4da672-e5ec-11ee-96c2-902e169e2a15",
+            "label": "Company",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/Company",
+            "cluster": "foundationCommon",
+            "x": 0.9960269005890129,
+            "y": 0.7960447316605421
+        },
+        {
+            "key": "1b4da673-e5ec-11ee-b7b4-902e169e2a15",
+            "label": "Contact",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/Contact",
+            "cluster": "foundationCommon",
+            "x": 0.022645676084161792,
+            "y": 0.20866574139338678
+        },
+        {
+            "key": "1b4da674-e5ec-11ee-a5fc-902e169e2a15",
+            "label": "KnowledgeArticle",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/KnowledgeArticle",
+            "cluster": "foundationCommon",
+            "x": 0.706978577016958,
+            "y": 0.11635105327081474
+        },
+        {
+            "key": "1b4da675-e5ec-11ee-847e-902e169e2a15",
+            "label": "Organization",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/Organization",
+            "cluster": "foundationCommon",
+            "x": 0.5810576241268735,
+            "y": 0.19535102047843322
+        },
+        {
+            "key": "1b4da676-e5ec-11ee-a70c-902e169e2a15",
+            "label": "PriceList",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/PriceList",
+            "cluster": "foundationCommon",
+            "x": 0.4537963900662927,
+            "y": 0.33858039300912424
+        },
+        {
+            "key": "1b4da677-e5ec-11ee-83ce-902e169e2a15",
+            "label": "PriceListItem",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/PriceListItem",
+            "cluster": "foundationCommon",
+            "x": 0.7300016534893566,
+            "y": 0.8847501162068695
+        },
+        {
+            "key": "1b4da678-e5ec-11ee-9d94-902e169e2a15",
+            "label": "Product",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/Product",
+            "cluster": "foundationCommon",
+            "x": 0.26735763666678836,
+            "y": 0.8149696086055283
+        },
+        {
+            "key": "1b4da679-e5ec-11ee-a0e5-902e169e2a15",
+            "label": "ProductAssociation",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/ProductAssociation",
+            "cluster": "foundationCommon",
+            "x": 0.062471741911090506,
+            "y": 0.7266799216905304
+        },
+        {
+            "key": "1b4da67a-e5ec-11ee-afbf-902e169e2a15",
+            "label": "ProductRelationship",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/ProductRelationship",
+            "cluster": "foundationCommon",
+            "x": 0.31834565739298193,
+            "y": 0.04828943496590543
+        },
+        {
+            "key": "1b4da67b-e5ec-11ee-81af-902e169e2a15",
+            "label": "Property",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/Property",
+            "cluster": "foundationCommon",
+            "x": 0.42147290588993935,
+            "y": 0.3742349576787233
+        },
+        {
+            "key": "1b4da67c-e5ec-11ee-ac46-902e169e2a15",
+            "label": "PropertyAssociation",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/PropertyAssociation",
+            "cluster": "foundationCommon",
+            "x": 0.7421179727017554,
+            "y": 0.9796145571300146
+        },
+        {
+            "key": "1b4da67d-e5ec-11ee-a1e8-902e169e2a15",
+            "label": "PropertyInstance",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/PropertyInstance",
+            "cluster": "foundationCommon",
+            "x": 0.7205583746378016,
+            "y": 0.25710417874323344
+        },
+        {
+            "key": "1b4da67e-e5ec-11ee-b788-902e169e2a15",
+            "label": "PropertyOptionSetItem",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/PropertyOptionSetItem",
+            "cluster": "foundationCommon",
+            "x": 0.3950395238600577,
+            "y": 0.9823083101173282
+        },
+        {
+            "key": "1b4dcb9b-e5ec-11ee-b3bb-902e169e2a15",
+            "label": "RatingModel",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/RatingModel",
+            "cluster": "foundationCommon",
+            "x": 0.7139979618651957,
+            "y": 0.5234881797274196
+        },
+        {
+            "key": "1b4dd0c8-e5ec-11ee-bc78-902e169e2a15",
+            "label": "RatingValue",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/RatingValue",
+            "cluster": "foundationCommon",
+            "x": 0.8224874079820327,
+            "y": 0.7699022595498891
+        },
+        {
+            "key": "1b4dd0c9-e5ec-11ee-a6c9-902e169e2a15",
+            "label": "Unit",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/Unit",
+            "cluster": "foundationCommon",
+            "x": 0.8864978521268211,
+            "y": 0.5879823492893309
+        },
+        {
+            "key": "1b4dd0ca-e5ec-11ee-80c5-902e169e2a15",
+            "label": "UnitGroup",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/UnitGroup",
+            "cluster": "foundationCommon",
+            "x": 0.12258656236957832,
+            "y": 0.21446528633658735
+        },
+        {
+            "key": "282e9097-e5ec-11ee-bce3-902e169e2a15",
+            "label": "Account",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Account",
+            "cluster": "foundationCommon",
+            "x": 0.6443968570897873,
+            "y": 0.694882656738533
+        },
+        {
+            "key": "282e9098-e5ec-11ee-a31d-902e169e2a15",
+            "label": "AccountLeads",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/AccountLeads",
+            "cluster": "foundationCommon",
+            "x": 0.4424824679274847,
+            "y": 0.5734508303396147
+        },
+        {
+            "key": "282e9099-e5ec-11ee-a1b4-902e169e2a15",
+            "label": "Activity",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Activity",
+            "cluster": "foundationCommon",
+            "x": 0.4296035779435894,
+            "y": 0.27628063816837756
+        },
+        {
+            "key": "282e909a-e5ec-11ee-b87f-902e169e2a15",
+            "label": "Appointment",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Appointment",
+            "cluster": "foundationCommon",
+            "x": 0.7196400350076068,
+            "y": 0.8268696078876494
+        },
+        {
+            "key": "282e909b-e5ec-11ee-8fa1-902e169e2a15",
+            "label": "Campaign",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Campaign",
+            "cluster": "foundationCommon",
+            "x": 0.18582776264129985,
+            "y": 0.816195591441662
+        },
+        {
+            "key": "282e909c-e5ec-11ee-976b-902e169e2a15",
+            "label": "CampaignActivity",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/CampaignActivity",
+            "cluster": "foundationCommon",
+            "x": 0.6857540177359235,
+            "y": 0.634350203498447
+        },
+        {
+            "key": "282eb7a5-e5ec-11ee-a044-902e169e2a15",
+            "label": "CampaignActivityItem",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/CampaignActivityItem",
+            "cluster": "foundationCommon",
+            "x": 0.5136188366048867,
+            "y": 0.2827705067572298
+        },
+        {
+            "key": "282eb7a6-e5ec-11ee-970c-902e169e2a15",
+            "label": "CampaignItem",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/CampaignItem",
+            "cluster": "foundationCommon",
+            "x": 0.4043992785948538,
+            "y": 0.23001178462454397
+        },
+        {
+            "key": "282eb7a7-e5ec-11ee-99b5-902e169e2a15",
+            "label": "CampaignResponse",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/CampaignResponse",
+            "cluster": "foundationCommon",
+            "x": 0.6551762644393715,
+            "y": 0.6037449869909447
+        },
+        {
+            "key": "282eb7a8-e5ec-11ee-8999-902e169e2a15",
+            "label": "Contact",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Contact",
+            "cluster": "foundationCommon",
+            "x": 0.5421083929767052,
+            "y": 0.6885409391795685
+        },
+        {
+            "key": "282eb7a9-e5ec-11ee-be7c-902e169e2a15",
+            "label": "ContactLeads",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/ContactLeads",
+            "cluster": "foundationCommon",
+            "x": 0.6983955585018222,
+            "y": 0.22677831062101705
+        },
+        {
+            "key": "282eb7aa-e5ec-11ee-9be0-902e169e2a15",
+            "label": "Email",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Email",
+            "cluster": "foundationCommon",
+            "x": 0.617122724344521,
+            "y": 0.9993444150580248
+        },
+        {
+            "key": "282eb7ab-e5ec-11ee-8f34-902e169e2a15",
+            "label": "Fax",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Fax",
+            "cluster": "foundationCommon",
+            "x": 0.5164550512152288,
+            "y": 0.8737392455962513
+        },
+        {
+            "key": "282ebd57-e5ec-11ee-a588-902e169e2a15",
+            "label": "Lead",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Lead",
+            "cluster": "foundationCommon",
+            "x": 0.1623682264186752,
+            "y": 0.049684258085262334
+        },
+        {
+            "key": "282ebd58-e5ec-11ee-befb-902e169e2a15",
+            "label": "LeadAddress",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/LeadAddress",
+            "cluster": "foundationCommon",
+            "x": 0.472585507477405,
+            "y": 0.3527624402652938
+        },
+        {
+            "key": "282ebf91-e5ec-11ee-b85e-902e169e2a15",
+            "label": "Letter",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/Letter",
+            "cluster": "foundationCommon",
+            "x": 0.5744893613474876,
+            "y": 0.3714951439506424
+        },
+        {
+            "key": "282ebf92-e5ec-11ee-b868-902e169e2a15",
+            "label": "MarketingList",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/MarketingList",
+            "cluster": "foundationCommon",
+            "x": 0.7320684474562538,
+            "y": 0.19176478982502887
+        },
+        {
+            "key": "282ebf93-e5ec-11ee-af74-902e169e2a15",
+            "label": "MarketingListMember",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/MarketingListMember",
+            "cluster": "foundationCommon",
+            "x": 0.5988589144303523,
+            "y": 0.4147982426143456
+        },
+        {
+            "key": "282ebf94-e5ec-11ee-a441-902e169e2a15",
+            "label": "PhoneCall",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/PhoneCall",
+            "cluster": "foundationCommon",
+            "x": 0.6760460328965802,
+            "y": 0.1747306342162317
+        },
+        {
+            "key": "282ebf95-e5ec-11ee-81ec-902e169e2a15",
+            "label": "QuickCampaign",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/QuickCampaign",
+            "cluster": "foundationCommon",
+            "x": 0.6382394539287366,
+            "y": 0.01974468061050061
+        },
+        {
+            "key": "282ebf96-e5ec-11ee-b848-902e169e2a15",
+            "label": "RecurringAppointment",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/RecurringAppointment",
+            "cluster": "foundationCommon",
+            "x": 0.8375359943911153,
+            "y": 0.7440771854726341
+        },
+        {
+            "key": "282ebf97-e5ec-11ee-ac7f-902e169e2a15",
+            "label": "SocialActivity",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/SocialActivity",
+            "cluster": "foundationCommon",
+            "x": 0.2542920935037355,
+            "y": 0.24523111711616563
+        },
+        {
+            "key": "33367c58-e5ec-11ee-9df9-902e169e2a15",
+            "label": "Competitor",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/Competitor",
+            "cluster": "foundationCommon",
+            "x": 0.2108552572036726,
+            "y": 0.4724129315359683
+        },
+        {
+            "key": "33367c59-e5ec-11ee-81e1-902e169e2a15",
+            "label": "CompetitorAddress",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/CompetitorAddress",
+            "cluster": "foundationCommon",
+            "x": 0.38120736441152636,
+            "y": 0.07499197972097571
+        },
+        {
+            "key": "33367c5a-e5ec-11ee-b1af-902e169e2a15",
+            "label": "CompetitorProduct",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/CompetitorProduct",
+            "cluster": "foundationCommon",
+            "x": 0.21771777318005536,
+            "y": 0.6890893516047197
+        },
+        {
+            "key": "33367c5b-e5ec-11ee-8022-902e169e2a15",
+            "label": "CompetitorSalesLiterature",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/CompetitorSalesLiterature",
+            "cluster": "foundationCommon",
+            "x": 0.18617266502283414,
+            "y": 0.810373846142112
+        },
+        {
+            "key": "33367c5c-e5ec-11ee-911c-902e169e2a15",
+            "label": "ContactInvoices",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/ContactInvoices",
+            "cluster": "foundationCommon",
+            "x": 0.9504410315780849,
+            "y": 0.08496009738119781
+        },
+        {
+            "key": "33367c5d-e5ec-11ee-b9ad-902e169e2a15",
+            "label": "ContactOrders",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/ContactOrders",
+            "cluster": "foundationCommon",
+            "x": 0.3511061485354515,
+            "y": 0.7169729198548428
+        },
+        {
+            "key": "33367c5e-e5ec-11ee-bae7-902e169e2a15",
+            "label": "ContactQuotes",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/ContactQuotes",
+            "cluster": "foundationCommon",
+            "x": 0.49232332058248207,
+            "y": 0.22125429916769712
+        },
+        {
+            "key": "33367c5f-e5ec-11ee-8d47-902e169e2a15",
+            "label": "Discount",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/Discount",
+            "cluster": "foundationCommon",
+            "x": 0.12457187747096798,
+            "y": 0.3764024269564895
+        },
+        {
+            "key": "33367c60-e5ec-11ee-baab-902e169e2a15",
+            "label": "DiscountList",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/DiscountList",
+            "cluster": "foundationCommon",
+            "x": 0.2757688045630805,
+            "y": 0.13767358530229323
+        },
+        {
+            "key": "33367c61-e5ec-11ee-a75c-902e169e2a15",
+            "label": "Invoice",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/Invoice",
+            "cluster": "foundationCommon",
+            "x": 0.5615664201973405,
+            "y": 0.5097774243032394
+        },
+        {
+            "key": "33367c62-e5ec-11ee-84f2-902e169e2a15",
+            "label": "InvoiceProduct",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/InvoiceProduct",
+            "cluster": "foundationCommon",
+            "x": 0.30337049918243086,
+            "y": 0.3785708579613779
+        },
+        {
+            "key": "33367c63-e5ec-11ee-872b-902e169e2a15",
+            "label": "LeadCompetitors",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/LeadCompetitors",
+            "cluster": "foundationCommon",
+            "x": 0.25458739030717037,
+            "y": 0.6556404919127335
+        },
+        {
+            "key": "33367c64-e5ec-11ee-b4ec-902e169e2a15",
+            "label": "LeadProduct",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/LeadProduct",
+            "cluster": "foundationCommon",
+            "x": 0.3868238595930239,
+            "y": 0.36676058129069344
+        },
+        {
+            "key": "33367c65-e5ec-11ee-8ea2-902e169e2a15",
+            "label": "Opportunity",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/Opportunity",
+            "cluster": "foundationCommon",
+            "x": 0.280556943563409,
+            "y": 0.06727316846183062
+        },
+        {
+            "key": "33367c66-e5ec-11ee-ab9e-902e169e2a15",
+            "label": "OpportunityClose",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/OpportunityClose",
+            "cluster": "foundationCommon",
+            "x": 0.9595407059683033,
+            "y": 0.1925324010966999
+        },
+        {
+            "key": "33367c67-e5ec-11ee-b62f-902e169e2a15",
+            "label": "OpportunityCompetitors",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/OpportunityCompetitors",
+            "cluster": "foundationCommon",
+            "x": 0.8978448666706454,
+            "y": 0.2735385088777925
+        },
+        {
+            "key": "33367c68-e5ec-11ee-bd91-902e169e2a15",
+            "label": "OpportunityProduct",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/OpportunityProduct",
+            "cluster": "foundationCommon",
+            "x": 0.9132523359582142,
+            "y": 0.9397739069354564
+        },
+        {
+            "key": "33367c69-e5ec-11ee-aa72-902e169e2a15",
+            "label": "OpportunityRelationship",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/OpportunityRelationship",
+            "cluster": "foundationCommon",
+            "x": 0.90654065965214,
+            "y": 0.04309500777183095
+        },
+        {
+            "key": "33367c6a-e5ec-11ee-be0a-902e169e2a15",
+            "label": "Order",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/Order",
+            "cluster": "foundationCommon",
+            "x": 0.9344976729621604,
+            "y": 0.5778867575976037
+        },
+        {
+            "key": "33367c6b-e5ec-11ee-8a75-902e169e2a15",
+            "label": "OrderClose",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/OrderClose",
+            "cluster": "foundationCommon",
+            "x": 0.19266760819198925,
+            "y": 0.8984940869929382
+        },
+        {
+            "key": "33367c6c-e5ec-11ee-b3ac-902e169e2a15",
+            "label": "OrderProduct",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/OrderProduct",
+            "cluster": "foundationCommon",
+            "x": 0.8133033033135678,
+            "y": 0.8330495934454617
+        },
+        {
+            "key": "33367c6d-e5ec-11ee-aab9-902e169e2a15",
+            "label": "PriceListItem",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/PriceListItem",
+            "cluster": "foundationCommon",
+            "x": 0.6753378910106715,
+            "y": 0.6671895413305272
+        },
+        {
+            "key": "3336a49b-e5ec-11ee-8687-902e169e2a15",
+            "label": "ProductSalesLiterature",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/ProductSalesLiterature",
+            "cluster": "foundationCommon",
+            "x": 0.016650391334978254,
+            "y": 0.4441100321174355
+        },
+        {
+            "key": "3336a49c-e5ec-11ee-b650-902e169e2a15",
+            "label": "PropertyInstance",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/PropertyInstance",
+            "cluster": "foundationCommon",
+            "x": 0.6412375200925728,
+            "y": 0.7905143819872635
+        },
+        {
+            "key": "3336a49d-e5ec-11ee-bc78-902e169e2a15",
+            "label": "Quote",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/Quote",
+            "cluster": "foundationCommon",
+            "x": 0.9798761084082591,
+            "y": 0.09341900683849957
+        },
+        {
+            "key": "3336a49e-e5ec-11ee-892c-902e169e2a15",
+            "label": "QuoteClose",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/QuoteClose",
+            "cluster": "foundationCommon",
+            "x": 0.6484497159185786,
+            "y": 0.6330157267124427
+        },
+        {
+            "key": "3336a49f-e5ec-11ee-a6d5-902e169e2a15",
+            "label": "QuoteProduct",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/QuoteProduct",
+            "cluster": "foundationCommon",
+            "x": 0.0009759311959883776,
+            "y": 0.9018573883981073
+        },
+        {
+            "key": "3336a4a0-e5ec-11ee-a035-902e169e2a15",
+            "label": "SalesAttachment",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/SalesAttachment",
+            "cluster": "foundationCommon",
+            "x": 0.4292715122324028,
+            "y": 0.04350208639157349
+        },
+        {
+            "key": "3336a4a1-e5ec-11ee-98e0-902e169e2a15",
+            "label": "SalesLiterature",
+            "tag": "Table",
+            "URL": "https://learn.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationCommon/crmCommon/sales/SalesLiterature",
+            "cluster": "foundationCommon",
+            "x": 0.1079250467234869,
+            "y": 0.2803837479611734
+        }
+    ],
+    "edges": [
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "32ffb3c1-e5ec-11ee-8430-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "48148aad-e5ec-11ee-bdc6-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "521b711d-e5ec-11ee-90a5-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb1b-e5ec-11ee-a631-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb1c-e5ec-11ee-b755-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb1d-e5ec-11ee-82bc-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb1e-e5ec-11ee-92a6-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb1f-e5ec-11ee-8fa9-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb20-e5ec-11ee-9d25-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb21-e5ec-11ee-aa6c-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb22-e5ec-11ee-86af-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb23-e5ec-11ee-893a-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb24-e5ec-11ee-9a1a-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb25-e5ec-11ee-a28a-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb26-e5ec-11ee-b474-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb27-e5ec-11ee-91bf-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb28-e5ec-11ee-ad89-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb29-e5ec-11ee-897e-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb2a-e5ec-11ee-a7be-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb2b-e5ec-11ee-8b2a-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb2c-e5ec-11ee-b688-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb2d-e5ec-11ee-afef-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb2e-e5ec-11ee-a70d-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb2f-e5ec-11ee-b0cb-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb30-e5ec-11ee-97ce-902e169e2a15"
+        },
+        {
+            "source": "48148aad-e5ec-11ee-bdc6-902e169e2a15",
+            "target": "4854fb31-e5ec-11ee-85c1-902e169e2a15"
+        },
+        {
+            "source": "521b711d-e5ec-11ee-90a5-902e169e2a15",
+            "target": "524eb559-e5ec-11ee-badf-902e169e2a15"
+        },
+        {
+            "source": "521b711d-e5ec-11ee-90a5-902e169e2a15",
+            "target": "524eb55a-e5ec-11ee-84c3-902e169e2a15"
+        },
+        {
+            "source": "521b711d-e5ec-11ee-90a5-902e169e2a15",
+            "target": "524eb55b-e5ec-11ee-8821-902e169e2a15"
+        },
+        {
+            "source": "521b711d-e5ec-11ee-90a5-902e169e2a15",
+            "target": "524eb55c-e5ec-11ee-bf67-902e169e2a15"
+        },
+        {
+            "source": "521b711d-e5ec-11ee-90a5-902e169e2a15",
+            "target": "524eb55d-e5ec-11ee-a03e-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da668-e5ec-11ee-9e31-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da669-e5ec-11ee-bd65-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da66a-e5ec-11ee-b5d9-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da66b-e5ec-11ee-824f-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da66c-e5ec-11ee-bdef-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da66d-e5ec-11ee-bfde-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da66e-e5ec-11ee-9c53-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da66f-e5ec-11ee-b3d4-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da670-e5ec-11ee-868d-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da671-e5ec-11ee-b8e9-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da672-e5ec-11ee-96c2-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da673-e5ec-11ee-b7b4-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da674-e5ec-11ee-a5fc-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da675-e5ec-11ee-847e-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da676-e5ec-11ee-a70c-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da677-e5ec-11ee-83ce-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da678-e5ec-11ee-9d94-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da679-e5ec-11ee-a0e5-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da67a-e5ec-11ee-afbf-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da67b-e5ec-11ee-81af-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da67c-e5ec-11ee-ac46-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da67d-e5ec-11ee-a1e8-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4da67e-e5ec-11ee-b788-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4dcb9b-e5ec-11ee-b3bb-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4dd0c8-e5ec-11ee-bc78-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4dd0c9-e5ec-11ee-a6c9-902e169e2a15"
+        },
+        {
+            "source": "1b0a8cbd-e5ec-11ee-91c5-902e169e2a15",
+            "target": "1b4dd0ca-e5ec-11ee-80c5-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282e9097-e5ec-11ee-bce3-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282e9098-e5ec-11ee-a31d-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282e9099-e5ec-11ee-a1b4-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282e909a-e5ec-11ee-b87f-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282e909b-e5ec-11ee-8fa1-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282e909c-e5ec-11ee-976b-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282eb7a5-e5ec-11ee-a044-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282eb7a6-e5ec-11ee-970c-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282eb7a7-e5ec-11ee-99b5-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282eb7a8-e5ec-11ee-8999-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282eb7a9-e5ec-11ee-be7c-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282eb7aa-e5ec-11ee-9be0-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282eb7ab-e5ec-11ee-8f34-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebd57-e5ec-11ee-a588-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebd58-e5ec-11ee-befb-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebf91-e5ec-11ee-b85e-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebf92-e5ec-11ee-b868-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebf93-e5ec-11ee-af74-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebf94-e5ec-11ee-a441-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebf95-e5ec-11ee-81ec-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebf96-e5ec-11ee-b848-902e169e2a15"
+        },
+        {
+            "source": "27d2d7f3-e5ec-11ee-ad19-902e169e2a15",
+            "target": "282ebf97-e5ec-11ee-ac7f-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c58-e5ec-11ee-9df9-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c59-e5ec-11ee-81e1-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c5a-e5ec-11ee-b1af-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c5b-e5ec-11ee-8022-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c5c-e5ec-11ee-911c-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c5d-e5ec-11ee-b9ad-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c5e-e5ec-11ee-bae7-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c5f-e5ec-11ee-8d47-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c60-e5ec-11ee-baab-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c61-e5ec-11ee-a75c-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c62-e5ec-11ee-84f2-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c63-e5ec-11ee-872b-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c64-e5ec-11ee-b4ec-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c65-e5ec-11ee-8ea2-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c66-e5ec-11ee-ab9e-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c67-e5ec-11ee-b62f-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c68-e5ec-11ee-bd91-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c69-e5ec-11ee-aa72-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c6a-e5ec-11ee-be0a-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c6b-e5ec-11ee-8a75-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c6c-e5ec-11ee-b3ac-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "33367c6d-e5ec-11ee-aab9-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "3336a49b-e5ec-11ee-8687-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "3336a49c-e5ec-11ee-b650-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "3336a49d-e5ec-11ee-bc78-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "3336a49e-e5ec-11ee-892c-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "3336a49f-e5ec-11ee-a6d5-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "3336a4a0-e5ec-11ee-a035-902e169e2a15"
+        },
+        {
+            "source": "32ffb3c1-e5ec-11ee-8430-902e169e2a15",
+            "target": "3336a4a1-e5ec-11ee-98e0-902e169e2a15"
+        }
+    ],
+    "clusters": [
+        {
+            "key": "foundationCommon",
+            "color": "#6c3e81",
+            "clusterLabel": "Foundation Common"
+        },
+        {
+            "key": "crmCommon",
+            "color": "#666666",
+            "clusterLabel": "CRM Common"
+        },
+        {
+            "key": "financialCommon",
+            "color": "#57a835",
+            "clusterLabel": "Financial Common"
+        }
+    ],
+    "tags": [
+        {
+            "key": "Entity",
+            "image": ""
+        },
+        {
+            "key": "Table",
+            "image": ""
+        }
+    ]
+}
